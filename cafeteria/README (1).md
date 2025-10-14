@@ -8,7 +8,10 @@
 La temática de nuestro TPE es de una cafetería.
 
 ### Descripción
+TPE 
+parte 1
 Tenemos las tablas principales que son las de productos donde irán los productos del negocio, el cual cada uno tiene su nombre, stock, descripción y precio además de su identificador único. Luego encontramos la tabla de pedido que necesita el id-producto para registrar el pedido, también cada pedido tiene estado (si es en preparación o entregado), el total del pedido, su fecha, la preparación (si es para consumir en el local o para llevar), si es para consumir identificamos la mesa de pedido (y en un futuro el id-usuario). Por último, tenemos la tabla de usuarios donde se irán identificando y filtrando según su rol si son clientes o administradores.
+parte 2: se modifico la base eliminando la tabla pedidos ya que vimos que no era necesario, agragamos la tabla categoria que tiene relacion con la tabla pedidos y por ultimo le dimos uso a la tabla de usuarios 
 
 ### Base de datos
 Puedes ver la estructura de la base de datos en el siguiente archivo SQL:  
