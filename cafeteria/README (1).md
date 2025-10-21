@@ -15,7 +15,10 @@ parte 2: se modifico la base eliminando la tabla pedidos ya que vimos que no era
 
 ### Base de datos
 Puedes ver la estructura de la base de datos en el siguiente archivo SQL:  
-[Ver archivo SQL](cafeteria(2).sql)
+[Ver archivo SQL](cafeteria(11).sql)
 
 ### Imagen de la base de datos
 ![Imagen de la base de datos](tablacafeteria.png)
+## Atencion!
+para entrar a la parte del "Admin" tenes que ingresar en donde dice INGRESAR el usuario "webadmin" y la contraseña admin 
+en esta seccion podras ver lo "exclusivo" para los usuarios logueados, ya sea agregar,eliminar,modificar productos/categorias de los mismos 
