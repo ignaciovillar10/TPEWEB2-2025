@@ -22,3 +22,13 @@ Puedes ver la estructura de la base de datos en el siguiente archivo SQL:
 ## Atencion!
 para entrar a la parte del "Admin" tenes que ingresar en donde dice INGRESAR el usuario "webadmin" y la contraseña admin 
 en esta seccion podras ver lo "exclusivo" para los usuarios logueados, ya sea agregar,eliminar,modificar productos/categorias de los mismos 
+## Codigo .htaccess
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+
+    RewriteRule \.(?:css|js|jpe?g|gif|png)$ - [L]
+    RewriteRule ^(.*)$ router.php?action=$1 [QSA,L]
+</IfModule>
+
